@@ -3,6 +3,6 @@ def my_function ():
     print("probando la funcion")
 
 def sum_two_values ():
-    print()
+    print("")
 
 my_function()
