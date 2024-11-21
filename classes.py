@@ -25,5 +25,5 @@ my_other_person = Person("Azael", "morell", "AzaelDev")
 print(my_other_person.full_name)
 my_other_person.walk()
 
-my_other_person.full_name = "Oscar Garcia (El ciclista)"
+my_other_person.full_name = "Manolo Perez (El ciclista)"
 print(my_other_person.full_name) 
