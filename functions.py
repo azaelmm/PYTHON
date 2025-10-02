@@ -1,6 +1,16 @@
+import os
+
 
 def my_function ():
-    print("probando la funcion")
+    os.system("cls")
+    nombre = input("Introduce tu nombre: ")
+    print("Hola, " + nombre + "!")
+    age = int(input("Introduce tu edad: "))
+    if age < 18:
+        print("Eres menor de edad.")
+    print(f"Tienes {age} años.")
+    country, city = input("Introduce tu país y ciudad (separados por coma): ").split(",")
+    print(f"Vives en {city}, {country}.")
 
 def sum_two_values (first_number, second_number):
     print("Resultado: ", first_number+second_number)
@@ -20,18 +30,18 @@ def print_upper_texts (*texts):
 
 my_function()
 
-sum_two_values(20, 30)
+# sum_two_values(20, 30)
 
-sum_two_values("20", "30")
+# sum_two_values("20", "30")
 
-my_result = sum_two_values_with_return(50, 50)
+# my_result = sum_two_values_with_return(50, 50)
 
-print(my_result)
+# print(my_result)
 
-print(sum_two_values_with_return(1, 1))
+# print(sum_two_values_with_return(1, 1))
 
-print_name("Azael", "Morell")
+# print_name("Azael", "Morell")
 
-print_name_with_default("Azael", "Morell", "PaperDev")
+# print_name_with_default("Azael", "Morell", "PaperDev")
 
-print_upper_texts("Hola", "Pero", "Python")
+# print_upper_texts("Hola", "Pero", "Python")

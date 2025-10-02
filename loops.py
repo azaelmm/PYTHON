@@ -18,6 +18,7 @@ my_tuple = (19, 1.80, "Azael", "Morell", "Martinez")
 my_set = {"Azael", "Morell", 19}
 my_dict = {"Nombre":"Azael", "Apellido":"Morell", "Edad":19, 1:"python"}
 
+print(my_tuple[::2])
 
 for element in my_tuple:
     print(element)
